@@ -1,0 +1,11 @@
+# application name
+# 应用服务 WEB 访问端口
+Server:
+  port: 8081
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    password: 'vincent2017727'
+    url: jdbc:mysql://localhost:3306/test01?serverTimezone=UTC
+    username: 'root'
+
